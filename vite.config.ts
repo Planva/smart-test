@@ -8,8 +8,12 @@ export default defineConfig({
     react(),
     {
       name: 'generate-sitemap',
+      buildStart: () => {
+        // Generate sitemap at build start
+        import('./generate-sitemap.js');
+      },
       writeBundle: () => {
-        // Execute the sitemap generation script
+        // Generate sitemap again after bundle is written
         import('./generate-sitemap.js');
       }
     }
