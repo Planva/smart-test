@@ -8,7 +8,7 @@ export default function Footer() {
     { name: "Difficult Person Test", url: "https://www.difficult-person-test.com" },
     { name: "Thumbnail Tester", url: "https://www.thumbnail-tester.com" },
     { name: "Calculator App", url: "https://www.calculator-app.org" },
-    { name: "Calculator App", url: "https://www.future-value-calculator.com/" },
+    { name: "future value calculator", url: "https://www.future-value-calculator.com/" },
   ];
 
   return (
